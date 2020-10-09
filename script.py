@@ -32,7 +32,7 @@ ok = '\n'
 msg = str(message) + str(ok)
 driver = webdriver.Chrome()
 driver.get("https://web.whatsapp.com/")
-input(fg('light_red') + " \n[>] Press Enter When You Login Successfully In Whatsapp [<]\n")
+input(fg('light_red') + " \n[>] Click Enter when you have successfully logged in [<]\n")
 for num in numbers:
     driver.get("https://api.whatsapp.com/send/?phone=" + num)
     driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/a").click()
