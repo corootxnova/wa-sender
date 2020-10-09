@@ -3,9 +3,13 @@ try:
 	from selenium import webdriver
 	from time import sleep
 	from colored import fg, attr
+
 except:
 	print(' >>> Install Selenium And Colored > pip install selenium - pip install colored')
 	sleep(15)
+
+import os
+os.system("title Whatsapp Sender V0.1")
 
 print('''
 
@@ -17,6 +21,7 @@ Y8   I8I   88 88~~~88 C8888D   `Y8b. 88~~~~~ 88 V8o88 88   88 88~~~~~ 88`8b
  `8b8' `8d8'  YP   YP        `8888Y' Y88888P VP   V8P Y8888D' Y88888P 88   YD 
                                                                               
                                                                               
+
 ''')
 upload_num = input(fg('yellow_4b') + " >>> Enter Numbers List With Country Code : ")
 upload_msg = input(fg('yellow_4b') + " >>> Enter Message Path : ")
